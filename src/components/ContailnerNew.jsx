@@ -2,7 +2,7 @@
 
 const ContailnerNew = ({ children }) => {
     return (
-        <div className="container max-w-7x w-full mx-auto">{children}</div>
+        <div className="container max-w-7xl w-full mx-auto px-3 md:0 ">{children}</div>
     )
 }
 

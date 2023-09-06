@@ -3,7 +3,7 @@ import ContailnerNew from "../../components/ContailnerNew"
 
 const Heading = () => {
     return (
-        <div className="bg-[rgb(66,132,188)] ">
+        <div className="bg-[rgb(66,132,188)] md:flex hidden ">
             <ContailnerNew>
                 <div className="flex justify-between gap-3 items-center">
                     <button className="btn btn-error rounded-none">Error</button>
