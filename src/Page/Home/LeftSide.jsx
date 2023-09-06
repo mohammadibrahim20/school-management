@@ -1,9 +1,14 @@
 import AboutCollege from "./AboutCollege"
+import Notice from "./Notice"
 
 
 const LeftSide = () => {
   return (
-    <AboutCollege/>
+    <>
+      <AboutCollege />
+      <Notice />
+    </>
+
   )
 }
 
