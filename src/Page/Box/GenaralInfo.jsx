@@ -8,7 +8,7 @@ const GenaralInfo = () => {
     <motion.circle
     cx={500} animate={{ cx: [null, 100] }}
     >
-    <div className=" border-4 drop-shadow-sm px-10 py-5 rounded-2xl bg-yellow-50 hover:bg-yellow-500 hover:text-white transform transition duration-500 hover:scale-105 ">
+    <div className=" border-4 drop-shadow-sm px-10 py-5 rounded-2xl bg-yellow-50 hover:bg-yellow-600 hover:text-white transform transition duration-500 hover:scale-105 ">
       <Title title="General Information" />
       <div className="flex gap-2 mt-5">
         <GiEnlightenment className="hover:text-black" size={100} />
